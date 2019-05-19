@@ -23,7 +23,9 @@ Se crea la topologia de pruebas en GNS3 utilizando el docker Network_Automation 
 Se elige este docker ya que el mismo posee entre otras la libreria NETMIKO que es utilizada para redes.
  - https://pynet.twb-tech.com/blog/automation/netmiko.html
  - https://github.com/ktbyers/netmiko 
-
+ 
+Para la periodicidad se utilizo la libreria Schedule.
+ - https://schedule.readthedocs.io/en/stable/index.html
 
 Como solucion a la hora de guardar los archivos se genero un directorio principal, y dentro, se genera otro directorio
 por equipo para guardar su correspondiente backup, por ejemplo ConfiguracionesDeSwitches/IP/backup.txt 
